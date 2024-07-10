@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/736x/9a/73/8c/9a738cd551e8784a04b06a4cdf8c7cdf.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+        }
+
+        .ads {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+
+        .col-left {
+            width: 60%;
+
+        }
+
+        .col-right {
+            width: 40%;
+        }
+
+        .Burger {
+            position: absolute;
+            right: 27px;
+            width: 730px;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+
+            translate: -121px 230px;
+            margin-top: 0px;
+
+        }
+
+
+
+        @font-face {
+            font-family: flame;
+            src: url('flame-3-cufonfonts/FlameSans.otf');
+        }
+
+        @font-face {
+            font-family: Anton;
+            src: url('Anton-Regular.ttf');
+        }
+
+
+
+        .title {
+            font-size: 7rem;
+            font-family: flame;
+            color: #f4e1cc;
+            text-shadow: 5px 3px 7px #227bff;
+            translate: -265px 290px;
+
+
+
+
+        }
+
+        .title>p {
+            display: flex;
+            width: 50%;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+            translate: 197px -256px;
+            margin: 0px;
+        }
+
+        .subtitle {
+            font-family: Anton;
+            font-size: 50px;
+            color: #edecd8d2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            translate: -620px 89px;
+
+            margin: 0px;
+            text-shadow: 4px 3px 2px #653216;
+        }
+
+        .btn {
+            font-family: flame;
+            font-size: 2rem;
+            color: #7b5f44;
+            width: 200px;
+            height: 65px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          
+            border: none;
+            translate: -930px 740px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="ads">
+        <div class="col-left">
+
+        </div>
+        <h1 class="title">
+            <p> Tastybite <br> Burger
+            </p>
+        </h1>
+        <h3 class="subtitle">
+            "I'm 'beef-ing' up my happiness with this burger."
+        </h3>
+        <button class="btn">
+            OrderNow
+        </button>
+        <div class="col-right">
+
+            <img src="burger.png" class="Burger">
+        </div>
+    </section>
+</body>
+
+</html>
